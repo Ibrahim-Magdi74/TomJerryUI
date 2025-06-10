@@ -38,7 +38,7 @@ fun TomCardView(
         Card(
             modifier = modifier
                 .fillMaxWidth()
-                .height(100.dp),
+                .height(101.dp),
             shape = RoundedCornerShape(16.dp),
             elevation = CardDefaults.cardElevation(1.dp)
         ) {
@@ -67,7 +67,7 @@ fun TomCardView(
         }
 
         TomImageCard(
-            painter = painterResource(R.drawable.tomma),
+            painter = painterResource(R.drawable.tom),
             modifier = Modifier
                 .height(125.dp).width(100.dp)
                 .align(Alignment.TopEnd)
